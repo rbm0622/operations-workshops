@@ -18,7 +18,6 @@ This half-day hands-on classroom style session will provide operators with hands
 3:45 PM - 4:30 PM::
  * Monitoring
   ** Demo: _LogInsight (RK)_
-  ** Demo: _Zabbix and IRIS (iToc Team)_
  * Troubleshooting
   ** Demo: _Heap Dumps (RK)_
   ** Demo: _Threaddumps (RK)_
