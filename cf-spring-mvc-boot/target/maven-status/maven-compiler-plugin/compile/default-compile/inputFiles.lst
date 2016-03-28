@@ -1,0 +1,5 @@
+/Users/jgammon/demo/PCF-LoB-Workshop/cf-spring-mvc-boot/src/main/java/io/pivotal/workshop/WorkshopApplication.java
+/Users/jgammon/demo/PCF-LoB-Workshop/cf-spring-mvc-boot/src/main/java/io/pivotal/workshop/entity/Attendee.java
+/Users/jgammon/demo/PCF-LoB-Workshop/cf-spring-mvc-boot/src/main/java/io/pivotal/workshop/web/DataInitializer.java
+/Users/jgammon/demo/PCF-LoB-Workshop/cf-spring-mvc-boot/src/main/java/io/pivotal/workshop/web/CloudFoundryWorkshopController.java
+/Users/jgammon/demo/PCF-LoB-Workshop/cf-spring-mvc-boot/src/main/java/io/pivotal/workshop/repository/AttendeeRepository.java

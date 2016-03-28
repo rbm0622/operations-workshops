@@ -1,0 +1,47 @@
+= Pivotal CloudFoundry LoB Workshop
+
+== Schedule
+
+This half-day hands-on classroom style session will provide operators with hands on experience with Pivotal Cloud Foundry concepts, architecture and fundamentals of pushing code and building applications. The session includes presentations, demos and hands on labs.
+
+1:30 PM - 2:15 PM::
+ * Session: _Pivotal Cloud Foundry Architecture and Operations_ 
+ * Demo: _Basic App CLI and UI Operations (JG)_
+ * Demo: _Ops Manager (JG)_
+ * Demo: _Jenkins CI/CD (JG)_
+2:15 PM - 2:45 PM:: 
+ * Review of Pivotal Tracker Stories
+2:45 PM - 3:45 PM::
+ * Labs 1-4 - CloudFoundry Developer Experience
+ ** PCF Operations
+ ** Blue-Green Deploys
+3:45 PM - 4:30 PM::
+ * Monitoring
+  ** Demo: _LogInsight (RK)_
+  ** Demo: _Zabbix and IRIS (iToc Team)_
+ * Troubleshooting
+  ** Demo: _Heap Dumps (RK)_
+  ** Demo: _Threaddumps (RK)_
+  ** Demo: _CF-SSH into the container (RK)_
+4:30 - ::
+ * Q&A
+
+== Pre-Requisites
+ * Each participant must have the Cloud Foundry Command line Client (cf-cli) installed
+  Instructions:
+  1. Download https://cli.run.pivotal.io/stable?release=windows64-exe&version=6.16.1&source=github-rel
+  2. Unzip to a cf-cli dir.
+  3. Add cf-cli dir. to your PATH user local environment variable
+  4. "cf help " command output will validate that you have a functional cf-cli
+ * Each participant must have a developer role in the CF Org/Space.
+
+== Course Materials
+* Session: link:presentations/Session_2_Architecture_And_Operations.pptx[Pivotal Cloud Foundry Architecture and Operations]
+* Additional Slides: link:presentations/Session_1_Cloud_Native_Enterprise.pptx[Welcome to the Cloud Native Enterprise]
+* Additional Slides: link:presentations/Session_3_Services_Overview.pptx[Pivotal Cloud Foundry Services]
+
+* Workshop
+** link:labs/lab1/lab.adoc[Lab 1 - Preparing the Environment]
+** link:labs/lab2/lab.adoc[Lab 2 - Binding to Cloud Foundry Services]
+** link:labs/lab3/lab.adoc[Lab 3 - Operating Your Application]
+** link:labs/lab4/lab.adoc[Lab 4 - Monitoring Your Application]
