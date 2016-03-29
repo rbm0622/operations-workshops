@@ -1,5 +1,12 @@
 = Lab 1 - Preparing the Environment
 
+== Configure CF-CLI
+ * Each participant must have the Cloud Foundry Command line Client (cf-cli) installed Instructions:
+ ** Download https://cli.run.pivotal.io/stable?release=windows64-exe&version=6.16.1&source=github-rel
+ ** Unzip to a cf-cli dir.
+ ** Add cf-cli dir. to your PATH user local environment variable
+ ** "cf help " command output will validate that you have a functional cf-cli
+
 == Create a Space
  * Log into CloudFoundry: 
  ** $ cf login -u <email> -a https://api.cfns.travp.net --skip-ssl-validation
@@ -16,13 +23,6 @@
  ** Once the virus scan completes, select a directory to save the zip file.
  * Right-click the zip file in the Windows FileBrowser and select "Extract All"
  * The "cf push" in the following steps should be from this directory.
-
-== Configure CF-CLI
- * Each participant must have the Cloud Foundry Command line Client (cf-cli) installed Instructions:
- ** Download https://cli.run.pivotal.io/stable?release=windows64-exe&version=6.16.1&source=github-rel
- ** Unzip to a cf-cli dir.
- ** Add cf-cli dir. to your PATH user local environment variable
- ** "cf help " command output will validate that you have a functional cf-cli
 
 == Target PCF
 
