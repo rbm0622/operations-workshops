@@ -1,5 +1,15 @@
 = Lab 1 - Preparing the Environment
 
+== Create a Space
+ * Log into CloudFoundry: 
+  > $ cf login -u <email> -a https://api.cfns.travp.net --skip-ssl-validation
+ * Target the itoc-training org
+  > $ cf target -o itoc-training
+ * Create the new Space
+  > $ cf create-space <username-space> -o itoc-training
+ * Set Space-Role
+  > $ cf set-space-role <email> itoc-training <username-space> SpaceDeveloper
+
 == Download the Spring-MVC App
  * Download the zipped application from: https://github.com/jtgammon/PCF-LoB-Workshop/blob/master/cf-spring-mvc-boot/spring-mvc.zip
  ** Click "View Raw" to download.
