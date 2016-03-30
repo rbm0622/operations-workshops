@@ -9,7 +9,7 @@
 
 == Create a Space
  * Log into CloudFoundry: 
- ** $ cf login -u <email> -a https://api.cfns.travp.net --skip-ssl-validation
+ ** $ cf login -u <email> -a https://api.<your-domain> --skip-ssl-validation
  * Target the itoc-training org
  ** $ cf target -o itoc-training
  * Create the new Space
@@ -31,7 +31,7 @@
 . Login to Pivotal Cloudfoundry:
 +
 ----
-$ cf login -u <username> -a https://api.cfns.travp.net --skip-ssl-validation
+$ cf login -u <username> -a https://api.<your-domain> --skip-ssl-validation
 ----
 +
 Follow the prompts.
