@@ -4,5 +4,5 @@
 
 == Screenshot
 
-![PDT](Screenshot.png "PDT")
+![PDT](./Screenshot.png "PDT")
 
