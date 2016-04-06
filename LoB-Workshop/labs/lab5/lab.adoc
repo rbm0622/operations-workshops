@@ -2,7 +2,10 @@
 
 == Download the App
 
-[PDT App](https://pdt.zip)
+Download the zip file from here:
+https://github.com/pivotalservices/operations-workshops/blob/master/LoB-Workshop/labs/lab5/pdt.zip
+
+**Note:** Click on "View Raw" to download the zip file.
 
 == Screenshot
 
