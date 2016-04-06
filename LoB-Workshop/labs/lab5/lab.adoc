@@ -1,4 +1,4 @@
-= Lab 5 - Deploying a .NET Application
+= Lab 5 - Test Scenarios using the Problem Diagnostic Lab Tool (PDT)
 
 [abstract]
 --
