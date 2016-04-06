@@ -4,5 +4,5 @@
 
 == Screenshot
 
-![PDT](./Screenshot.png "PDT")
+image::Screenshot.png[]
 
