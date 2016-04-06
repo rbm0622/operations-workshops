@@ -2,7 +2,7 @@
 
 == Download the App
 
-[PDT App](./pdt.zip)
+[PDT App](pdt.zip)
 
 == Screenshot
 
