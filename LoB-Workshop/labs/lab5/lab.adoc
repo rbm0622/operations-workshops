@@ -11,3 +11,16 @@ https://github.com/pivotalservices/operations-workshops/blob/master/LoB-Workshop
 
 image::Screenshot.png[]
 
+== Thread Dump
+ * Connect to the PDT app via a web browser and generate high CPU.
+ * SSH to the PDT app.
+ ```
+ cf ssh pdt-1
+ ```
+  * Run 'top' to find the high CPU process.
+  * Kill -3 the process
+```
+kill -3 14
+```
+ 
+
