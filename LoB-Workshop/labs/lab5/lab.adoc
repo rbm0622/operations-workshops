@@ -13,11 +13,11 @@ image::Screenshot.png[]
 
 == Thread Dump
  * Connect to the PDT app via a web browser and generate high CPU.
- * In one terminal window, log the pdt-1 application.
+ * In one terminal window, log the pdt-1 application using the cf-cli.
 ```
 cf logs pdt-1
 ```
- * In a second terminal window, SSH to the PDT app.
+ * In a second terminal window, SSH to the PDT app using the cf-cli.
 ```
  cf ssh pdt-1
 ```
@@ -28,4 +28,21 @@ kill -3 14
 ```
  * The log window will show the thread dump.
  
+== Heap Dump
+ * In a terminal window, SSH to the PDT app using the cf-cli.
+```
+ cf ssh pdt-1
+```
+  * Run 'jcmd' to find the running Java processes
+```
+/home/vcap/app/.java-buildpack/open_jdk_jre/bin/jcmd
+```
+  * Run 'jcmd <process> help' to see available commands.
+```
+/home/vcap/app/.java-buildpack/open_jdk_jre/bin/jcmd 14 help
+```
+ * Generate the heap dump using jmap.
+```
+/home/vcap/app/.java-buildpack/open_jdk_jre/bin/jmap -dump:file=mydump 14
+```
 
