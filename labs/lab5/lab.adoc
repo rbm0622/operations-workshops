@@ -3,7 +3,7 @@
 == Download the App
 
 Download the zip file from here:
-https://github.com/pivotalservices/operations-workshops/blob/master/LoB-Workshop/labs/lab5/pdt.zip
+https://github.com/pivotalservices/operations-workshops/blob/master/labs/lab5/pdt.zip
 
 **Note:** Click on "View Raw" to download the zip file.
 
