@@ -31,7 +31,8 @@ Follow the prompts.
 . Change to the _cf-spring-mvc-boot_ sample application directory:
 +
 ----
-$ cd $BOOTCAMP_HOME/cf-spring-mvc-boot
+$ cd <dir>/cf-spring-mvc-boot
+* where <dir> is the directory you unzipped the app.
 ----
 
 . Push the application!
