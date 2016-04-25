@@ -140,8 +140,3 @@ $ cf app <<app_name>>
 $ cf stop <<app_name>>
 ----
 
-. Delete the deployed application using the CLI
-+
-----
-$ cf delete <<app_name>>
-----
