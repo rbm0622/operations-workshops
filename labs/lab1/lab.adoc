@@ -21,7 +21,7 @@
 . Login to Pivotal Cloudfoundry:
 +
 ----
-$ cf login -u <username> -a https://api.cfns.travp.net --skip-ssl-validation
+$ cf login -u <username> -a https://api.cfns.customer.net --skip-ssl-validation
 ----
 +
 Follow the prompts.
